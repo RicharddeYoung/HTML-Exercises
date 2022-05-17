@@ -1,0 +1,23 @@
+em {
+    color: blue;
+}
+
+#descendant {
+    color: red;
+}
+
+header > h1 {
+    color:limegreen;
+}
+
+p + blockquote {
+    color:purple;
+}
+
+h1 ~ p {
+    background-color:grey;
+}
+
+.hover:hover {
+    color: hotpink;
+}
