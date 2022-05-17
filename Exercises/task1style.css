@@ -1,0 +1,11 @@
+body {
+    background-color:aqua;
+}
+
+div {
+    color:darkmagenta;
+    border: 20px groove forestgreen;
+    margin: 5%;
+    padding: 20px;
+    width: 30%;
+}
