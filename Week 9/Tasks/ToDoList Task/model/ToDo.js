@@ -7,9 +7,13 @@ const toDoSchema = new Schema({
         required: true
     },
     category: String,
-    description: String,
+    description: {
+        type: String,
+        maxlength: 256,
+    },
     status: {
         type: String,
+        enum: ['To Do', 'Doing', 'Done'],
         required: true
     }
 });
